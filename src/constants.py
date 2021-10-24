@@ -1,5 +1,5 @@
 # Constants for run_gan
-IMG_FILE_PATH ='../data/preprocessed_data'
+IMG_FILE_PATH ='../preprocessed_data'
 BATCH_SIZE = 1 # The batch size of 1 produced better results for the U-Net in the original pix2pix experiment
 
 #BUFFER_SIZE = 8189

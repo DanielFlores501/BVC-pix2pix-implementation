@@ -11,8 +11,6 @@ from skimage import filters, img_as_ubyte
 from skimage.feature import canny
 from skimage.color import rgb2gray
 
-IMG_FILE_PATH ='../data/flowerspreprocessed'
-
 parser = argparse.ArgumentParser(description='Program to preprocess images.')
 parser.add_argument("dataset_location", help="File path to dataset of images.", default=None)
 args = parser.parse_args()
